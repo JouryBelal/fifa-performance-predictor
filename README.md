@@ -76,13 +76,12 @@ git clone https://github.com/JouryBelal/fifa-performance-predictor.git
 pip install scikit-learn pandas numpy matplotlib seaborn
 ```
 
-3. Add the dataset files:
+3. Add the dataset file:
    - `Fifa.csv` — for the FIFA prediction notebooks
-   - `car_price.csv` — for the baseline regression notebook
+  
 
-4. Run the notebooks in order:
-   - `01_eda_and_baseline_models.ipynb` — EDA, preprocessing, and baseline models
-   - `02_ensemble_models_and_tuning.ipynb` — ensemble models, tuning, and evaluation
+4. Run the notebook :
+  ensemble_models_and_tuning.ipynb` — ensemble models, tuning, and evaluation
 
 ---
 
@@ -90,6 +89,5 @@ pip install scikit-learn pandas numpy matplotlib seaborn
 
 ```
 fifa-performance-predictor/
-├── 01_eda_and_baseline_models.ipynb                        # EDA + baseline models
-├── 02_ensemble_models_and_tuning.ipynb   # Ensemble models + tuning
+├── ensemble_models_and_tuning.ipynb
 └── README.md
