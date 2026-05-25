@@ -29,12 +29,12 @@ A machine learning system that predicts FIFA player **market value** (regression
 
 ## Models & Techniques
 
-### Baseline (Assignment 1 & 2)
+### Baseline 
 - Linear Regression, Ridge Regression
 - Logistic Regression
 - Full preprocessing pipeline: MinMax scaling, log transforms, one-hot encoding, median imputation
 
-### Ensemble (Assignment 3)
+### Ensemble 
 - **Voting Regressor** — tuned KNN + SVR + Random Forest
 - **Soft Voting Classifier** — tuned KNN + SVC + Random Forest
 - Hyperparameter tuning via **GridSearchCV**
@@ -81,8 +81,8 @@ pip install scikit-learn pandas numpy matplotlib seaborn
    - `car_price.csv` — for the baseline regression notebook
 
 4. Run the notebooks in order:
-   - `assignment1_final.ipynb` — EDA, preprocessing, and baseline models
-   - `assignment3_completed_from_assignment2.ipynb` — ensemble models, tuning, and evaluation
+   - `01_eda_and_baseline_models.ipynb` — EDA, preprocessing, and baseline models
+   - `02_ensemble_models_and_tuning.ipynb` — ensemble models, tuning, and evaluation
 
 ---
 
@@ -90,6 +90,6 @@ pip install scikit-learn pandas numpy matplotlib seaborn
 
 ```
 fifa-performance-predictor/
-├── assignment1_final.ipynb                        # EDA + baseline models
-├── assignment3_completed_from_assignment2.ipynb   # Ensemble models + tuning
+├── 01_eda_and_baseline_models.ipynb                        # EDA + baseline models
+├── 02_ensemble_models_and_tuning.ipynb   # Ensemble models + tuning
 └── README.md
